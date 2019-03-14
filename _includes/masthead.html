@@ -34,10 +34,10 @@
         {{ user.location }}
       </div>
     {% endif %}
-    {% if user.website %}
+    {% if user.url %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-        {% octicon website height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Website %}
-        {{ user.website }}
+        {% octicon url height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Url %}
+        {{ user.url }}
       </div>
     {% endif %}
     {% if site.social_media %}
