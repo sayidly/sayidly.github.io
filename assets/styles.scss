@@ -39,5 +39,41 @@
 }
 
 .min-height-full {
-    min-height: 100vh;
+  min-height: 100vh;
+}
+
+// fixed left part
+
+.margin-left {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .flex-self-stretch {
+   position: fixed;
+   height: 100vh;
+  }
+  .margin-left {
+    margin-left: 41.66667%;
+  }
+}
+
+@media (min-width: 1012px) {
+  .flex-self-stretch {
+   position: fixed;
+   height: 100vh;
+  }
+  .margin-left {
+    margin-left: 33.33333%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .flex-self-stretch {
+   position: fixed;
+   height: 100vh;
+  }
+  .margin-left {
+    margin-left: 25%;
+  }
 }
