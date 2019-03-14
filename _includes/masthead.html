@@ -34,11 +34,11 @@
         {{ user.location }}
       </div>
     {% endif %}
-    {% if user.url %}
+    {% if user.blog %}
       <div class="{{ metadata_styles }}">
         {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link %}
-        <a href="{{ user.url }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.url }}
+        <a href="{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ user.blog }}
         </a>
       </div>
     {% endif %}
