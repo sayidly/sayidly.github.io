@@ -37,7 +37,7 @@
     {% if user.blog %}
       <div class="{{ metadata_styles }}">
         {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:link %}
-        <a href="{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        <a href="http://{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ user.blog }}
         </a>
       </div>
