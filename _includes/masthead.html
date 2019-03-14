@@ -35,9 +35,11 @@
       </div>
     {% endif %}
     {% if user.url %}
-      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
-        {% octicon url height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Url %}
-        {{ user.url }}
+      <div class="{{ metadata_styles }}">
+        {% octicon url height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:url %}
+        <a href="{{ user.url }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ user.url }}
+        </a>
       </div>
     {% endif %}
     {% if site.social_media %}
