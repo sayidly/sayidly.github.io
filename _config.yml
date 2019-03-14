@@ -11,7 +11,7 @@ permalink: /:year/:month/:day/:title/
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_posts" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
@@ -27,11 +27,11 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
+social_media:
+  # behance: sayidhe
   # dribbble: your_username
   # facebook: your_username
-  # linkedin: your_username
+  linkedin: sayidhe
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
