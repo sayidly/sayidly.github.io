@@ -51,3 +51,9 @@ topics:
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: github.sayidhe.com
+ga_tracking_id: UA-136393755-1
