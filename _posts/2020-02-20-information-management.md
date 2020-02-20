@@ -63,6 +63,8 @@ Instapaper 用来存放收集到的资讯。
 
 **4. 连在一起**
 
+完成以上步骤之后，就回到 [IFTTT][IFTTT] 中来创建触发器。
+
 1. 在 IFTTT 中，点击 Explore -> Make your own Applets from scratch。 
 1. **Create your own** 在 **If This Then That** 选择 This
     1. **Choose a service** 搜索框（Search services）中输入 「RSS」 -> 选择 RSS Feed
