@@ -104,3 +104,14 @@ img.medium {
     width: 80%;
   }
 }
+
+img.small {
+  width: 60%;
+  @media (min-width: 768px) {
+    width: 40%;
+  }
+}
+
+.center {
+  text-align: center;
+}
